@@ -125,6 +125,7 @@
 }
 .site-footer a{
     color: white;
+    align-content: end;
 }
 
 @media(min-width:768px){
