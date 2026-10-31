@@ -97,6 +97,13 @@
     gap: 15px;
 }
 
+.Main_content_article_body{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 15px;
+}
+
 .Main_content_article_body img{
     max-width: 100%;
     padding: 20px;
