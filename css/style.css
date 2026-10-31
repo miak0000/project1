@@ -93,18 +93,18 @@
 .content-grid{
     display: grid;
     grid-template-columns: 1fr;
-    padding: 15px;
-    gap: 10px;
+    padding: 20px;
+    gap: 15px;
 }
 
 .Main_content_article_body img{
     max-width: 100%;
-    padding: 15px;
+    padding: 20px;
 }
 
 .Spec_Sidebar{
     background-color: #A7b6D0;
-    padding: 15px;
+    padding: 30px;
 }
 
 .site-footer{
