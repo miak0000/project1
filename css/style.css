@@ -92,6 +92,8 @@
 
 .Main_content_article_body img{
     max-width: 100%;
+    padding: 15px;
+    gap: 10px;
 }
 
 .Spec_Sidebar{
@@ -119,7 +121,7 @@
     .cards-gallery{
         grid-template-columns: 1fr;
     }
-    .content-grid{
+    .Spec_Sidebar{
         grid-template-columns: 1fr;
     }
 }
