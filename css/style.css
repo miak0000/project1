@@ -103,7 +103,10 @@
 }
 
 .Spec_Sidebar{
+    display: flex;
+    flex-direction: column;
     background-color: #A7b6D0;
+    gap: 20px;
     padding: 30px;
 }
 
