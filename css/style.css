@@ -19,8 +19,7 @@
 }
 
 .site-header nav a{
-    display: flex;
-    gap: 15px;
+    margin-left: 15px;
     text-decoration: none;
     color: white;
 }
@@ -37,6 +36,10 @@
     padding: 30px;
     gap: 15px;
     color: white;
+}
+
+.primary-spotlight-banner{
+    color:white;
 }
 
 .Sidebar-Stats{
@@ -75,8 +78,6 @@
 
 .card .btn-action{
     margin-top: auto;
-    background-color: #A7b6D0;
-    color: white;
     text-decoration: none;
 }
 
@@ -85,8 +86,8 @@
     flex-direction: column;
     color: white;
     background-color: #0f1e3a;
-    padding: 15px;
-    gap: 10px;
+    padding: 30px;
+    gap: 15px;
 }
 
 .content-grid{
