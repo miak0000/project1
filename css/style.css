@@ -19,14 +19,15 @@
 }
 
 .site-header nav a{
-    margin-left: 15px;
+    display: flex;
+    gap: 15px;
     text-decoration: none;
     color: white;
 }
 
 .hero-grid{
     display: grid; 
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .primary-spotlight-banner{
@@ -50,6 +51,7 @@
     display: grid;
     justify-content: space-between;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
 }
 
 .gallery-heading {
@@ -67,10 +69,14 @@
 
 .card img{
     width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
 }
 
 .card .btn-action{
     margin-top: auto;
+    background-color: #A7b6D0;
+    color: white;
     text-decoration: none;
 }
 
@@ -84,8 +90,8 @@
 }
 
 .content-grid{
-    display: flex;
-    grid-template-columns: 3fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
     padding: 15px;
     gap: 10px;
 }
@@ -93,13 +99,11 @@
 .Main_content_article_body img{
     max-width: 100%;
     padding: 15px;
-    gap: 10px;
 }
 
 .Spec_Sidebar{
     background-color: #A7b6D0;
     padding: 15px;
-    gap: 10px;
 }
 
 .site-footer{
@@ -114,14 +118,11 @@
     color: white;
 }
 
-@media(max-width:768px){
+@media(min-width:768px){
     .hero-grid{
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr 1fr;
     }
-    .cards-gallery{
-        grid-template-columns: 1fr;
-    }
-    .Spec_Sidebar{
-        grid-template-columns: 1fr;
+    .content-grid{
+        grid-template-columns: 3fr 1fr;;
     }
 }
