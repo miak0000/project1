@@ -26,9 +26,11 @@
 
 .detail-hero{
     display: flex;
+    flex-direction: column;
     color: white;
     background-color: #0f1e3a;
     padding: 15px;
+    gap: 10px;
 }
 
 .content-grid{
@@ -45,6 +47,7 @@
 .Spec_Sidebar{
     background-color: #A7b6D0;
     padding: 15px;
+    gap: 10px;
 }
 
 .site-footer{
@@ -57,10 +60,6 @@
 }
 
 @media(max-width:768px){
-    .hero-grid{
+    .content-grid{
         grid-template-columns: 1fr;
-    }
-    .cards-gallery{
-        grid-template-columns: 1fr;
-    }
 }
